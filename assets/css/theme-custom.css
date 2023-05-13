@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=fallback');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Open sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
-    --link-color                                      : #000; /*#0A75BD*/
-    --link-color--hover                               : #f39200;
-    --link-border-bottom--hover                       : #f39200;
+    --base-font-family                                : "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; 
+    --base-color                                      : #00517B;
+    --link-color                                      : #00517B; /*#0A75BD*/
+    --link-color--hover                               : #215E9E;
+    --link-border-bottom--hover                       : #215E9E;
     --link-text-decoration                            : underline;
-    --link-text-decoration-color                      : #000;
-    --sidebar-name-color                              : #000;
+    --link-text-decoration-color                      : #00517B;
+    --sidebar-name-color                              : #00517B;
     --sidebar-background                              : #C9D5DE;
-    --sidebar-nav-link-color--active                  : #4D4D4D;
+    --sidebar-nav-link-color--active                  : #215E9E;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
-    --blockquote-border-color                         : #f39200;
-    --heading-font-family                             : "IBM Plex Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
-    --heading-h1-font-size: 3rem;
+    --blockquote-border-color                         : #EEB11E;
+    --heading-font-family                             : "Crimson Text", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif; 
+    --heading-h1-font-size: 3rem; 
     --heading-h1-font-weight: 800;
     --heading-h2-font-size: 2rem;/*var(--font-size-xl)*/
     --heading-h3-border-style: solid;
@@ -32,11 +33,50 @@
     --sidebar-width                                   : 22rem;
     --sidebar-nav-pagelink-background-position        : 3px 10px;
     --sidebar-nav-pagelink-background-position--active: 3px 10px; /*left center*/
-    --sidebar-nav-pagelink-background-image           : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
-    --sidebar-nav-pagelink-background-image--active   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
-    --sidebar-nav-pagelink-background-image--collapse : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
-    --sidebar-nav-pagelink-background-image--loaded   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='black' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image           : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='#00517B;' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--active   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='#00517B;' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--collapse : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='11.2' viewBox='0 0 7 11.2'%3E%3Cpath d='M1.5 1.5l4 4.1 -4 4.1' stroke-width='1.5' stroke='#00517B;' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    --sidebar-nav-pagelink-background-image--loaded   : url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.2' height='7' viewBox='0 0 11.2 7'%3E%3Cpath d='M1.5 1.5l4.1 4 4.1-4' stroke-width='1.5' stroke='#00517B;' fill='none' stroke-linecap='square' stroke-linejoin='miter' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
 }
+
+.article-body {
+  margin-top: 0px!important;
+  margin-left: 0px!important;
+}
+
+.article-abstract p {
+  font-family: "Crimson Text", serif!important;
+  font-size: 1.6rem!important; /* 0.8837rem */
+  line-height: 1.2rem; /* 1.3954rem */
+  margin-bottom: 0pt;
+  font-weight: bold;
+  text-align: justify;
+  color: #215E9E;
+  margin-left: 0px!important;
+  /*letter-spacing: 0.2pt;
+  /*word-spacing: 0.2pt;*/
+  orphans: 2;
+  widows: 2;
+  }
+
+section.fnlist {
+    margin-left: 0px!important;
+    color: #00517B;
+  }
+
+  div.csl-bib-body {
+    margin-left: 0px!important;
+  }  
+
+p strong {
+    font-weight: 700;
+    color: #00517B;
+  }
+
+h2 {
+    color: #00517B;
+  }
+  
 .content .markdown-section nav::before {
     content: "";
     /*font-family: "Sora", sans-serif;
@@ -66,7 +106,7 @@
     font-size: var(--heading-h1-font-size);
     font-weight: var(--heading-h1-font-weight, var(--heading-font-weight));
     line-height: var(--base-line-height);
-    color: var(--heading-h1-color, var(--heading-color));
+    color: #00517B;
     text-align: left;
 }
 
@@ -80,8 +120,20 @@
     font-size: var(--heading-h2-font-size);
     font-weight: var(--heading-h2-font-weight, var(--heading-font-weight));
     line-height: var(--base-line-height);
-    color: var(--heading-h2-color, var(--heading-color));
-} /*.markdown-section h2*/
+    color: #00517B;
+} 
+
+.markdown-section h2 {
+  color: #00517B;
+} 
+
+.markdown-section h3 {
+  color: #00517B;
+} 
+
+.markdown-section h4 {
+  color: #00517B;
+} 
 
 .content .markdown-section h3.bookauthor {
       font-size: var(--heading-h4-font-size);
@@ -95,6 +147,7 @@
   word-spacing: normal;
   orphans: 0;
   widows: 0;
+  color: #00517B;
 }
 
 .content .markdown-section li p {
@@ -141,11 +194,11 @@ font-family: var(--base-font-family);
 line-height: 1.5rem;
 }
 main > .content {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 /* Links */
 .markdown-section a:visited {
-  color: #989898;
+  color: #00517B;
 }
 .markdown-section a:visited.anchor  {
 color: var(--base-color);
@@ -225,7 +278,8 @@ color: var(--base-color);
   padding-left: 0.8rem;
 }
 .content .markdown-section table {
-  margin: 0 auto;
+  margin: 1rem;
+  padding-left: 1rem;
   width: 99% !important;
   font-family: "Open Sans", helvetica neue, arial, sans-serif;
   background-size: 8pt;
@@ -235,18 +289,20 @@ color: var(--base-color);
   border-right: 0;
   text-align: left;
   font-size: 8pt;
+  background-color: #F7F7F7;
 }
 
 .content .markdown-section table th {
   border-left: 0;
   border-right: 0;
-  padding: 0em 1em;
+  margin: 1rem;
+  padding: 1rem;
   font-size: 12px;
-  color: : black;
+  color: #00517B;
   font-weight: 700;
   font-style: italic;
-  background-color: rgb(241,248,250);
-  border-bottom: 2px solid #0B87DA;
+  background-color: #F7F7F7;
+  border-bottom: 0px solid #0B87DA;
 }
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
     font-size: 0.8rem;
@@ -282,7 +338,7 @@ color: var(--base-color);
   section[role=doc-footnote]:first-of-type::before {
       content: 'Footnote';
       display: block;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #00517B;
     }
 
 
@@ -358,3 +414,6 @@ nav.app-nav li a, nav.app-nav li a:visited {
   height: 0; overflow: hidden;
   max-width: 100%;
 }
+
+
+

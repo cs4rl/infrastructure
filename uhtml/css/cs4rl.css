@@ -395,16 +395,12 @@ div.titlepage { height: 100vh; }
 /*Review*/
 
 .markdown-section div.titlepage {
-      background-image: url(../../cover/cover.jpg);
-      /*-webkit-filter: drop-shadow( -5px 5px 5px rgb(165, 165, 165) );
-      filter: drop-shadow( -5px 5px 5px rgb(146, 8, 8)); */
-      background-position: 0% 100%;
-      background-size: 20%;
-      background-repeat: no-repeat;/*logo cover image*/
-      margin-top: 0mm;
-      margin-bottom: 8em;
-  }
-
+  background-position: 50% 100%;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  margin-top: 0em;
+  margin-bottom: -28em;
+}
 
 /*Title page*/
 

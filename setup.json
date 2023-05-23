@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/cs4rl/infrastructure",
+  "repoURL": "https://github.com/cs4rl/infrastructure/",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.vercel.app/",
   "podURL": "https://doabooks.org/"

@@ -3,13 +3,14 @@
       <h2 id="H1638982">Library Infrastructures and Citizen Science</h2>
       <p>Section Editor Kirsty Wallis</p>
       <p>v1.0, 2023</p>
-      <p>Series: Citizen Science for Research Libraries — A Guide</p>
-      <p></p>
+      <p>Series: <a href="https://doi.org/10.25815/hf0m-2a57" title="https://doi.org/10.25815/hf0m-2a57">Citizen Science for Research Libraries — A Guide</a></p>
+      <p>An open access and peer-reviewed book</p>
       <hr>
-      <p></p>
+      <p>Read online, DOI: <a href="https://doi.org/10.25815/tz0x-m353" title="https://doi.org/10.25815/tz0x-m353">10.25815/tz0x‑m353</a></p>
       <p><strong>Co-Editors-in-Chief:</strong> Thomas Kaarsted &amp; Simon Worthington. Correspondence <a href="mailto:simon.worthington@tib.eu" title="simon.worthington@tib.eu">simon.worthington@tib.eu</a>. <strong>Editors:</strong> Alisa Martek and Dragana Janković. <strong>Reviewers:</strong> Dr Raphaëlle Bats, Sara Decoster, Mitja V. Iskrić, Jitka Stilund Hansen, and Dominic Tate. <strong>Editorial Committee:</strong> Paul Ayris (Chair), Bastian Greshake Tzovaras, Jitka Stilund Hansen, and Kirsty Wallis.</p>
-      <p>DOI:<strong>&nbsp;</strong><a href="https://doi.org/10.25815/tz0x-m353" title="https://doi.org/10.25815/tz0x-m353">10.25815/tz0x‑m353</a> | ISBN Print:<strong>&nbsp;</strong>978‑87‑94233‑57‑6 e‑book:<strong>&nbsp;</strong>978‑87‑94233‑58‑3 | Wikidata: <a href="https://www.wikidata.org/wiki/Q118313412" title="https://www.wikidata.org/wiki/Q118313412">Q118313412</a></p>
-      <p>Web: <a href="https://cs4rl.github.io/infrastructure/" title="https://cs4rl.github.io/infrastructure/">cs4rl.github.io/infrastructure</a> | Source: <a href="https://github.com/cs4rl/infrastructure" title="https://github.com/cs4rl/infrastructure">github.com/cs4rl/infrastructure</a> | Series: <a href="https://libereurope.eu/working-group/liber-citizen-science-working-group/citizen-science-guide/" title="https://libereurope.eu/working-group/liber-citizen-science-working-group/citizen-science-guide/">libereurope.eu/cs4rl</a> </p>
+      <p>ISBN Print:<strong>&nbsp;</strong>978‑87‑94233‑57‑6 e‑book:<strong>&nbsp;</strong>978‑87‑94233‑58‑3 | Wikidata: <a href="https://www.wikidata.org/wiki/Q118313412" title="https://www.wikidata.org/wiki/Q118313412">Q118313412</a></p>
+      <p>Web: <a href="https://cs4rl.github.io/infrastructure/" title="https://cs4rl.github.io/infrastructure/">cs4rl.github.io/infrastructure</a> | Source: <a href="https://github.com/cs4rl/infrastructure" title="https://github.com/cs4rl/infrastructure">github.com/cs4rl/infrastructure</a> | Series: <a href="https://libereurope.eu/working-group/liber-citizen-science-working-group/citizen-science-guide/" title="https://libereurope.eu/working-group/liber-citizen-science-working-group/citizen-science-guide/">libereurope.eu/cs4rl</a></p>
+      <a id="pod"><p>Print-on-demand copies available from Amazon and other online retailers.</p></a>
       <p>Published by LIBER Citizen Science Working Group. </p>
       <p>Collaborations: SciStarter and ECSA.</p>
       <p>Copyright © 2023 the authors. Publication, articles, and images licensed under a Creative Commons Attribution-ShareAlike 4.0 International License – (<a href="https://creativecommons.org/licenses/by-sa/4.0/" title="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA</a>) unless otherwise stated.</p>

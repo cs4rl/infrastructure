@@ -44,6 +44,11 @@
   margin-left: 0px!important;
 }
 
+.content .markdown-section .article-body > figure.image-width-100 {
+  margin-left: 0;
+  width: 99%;
+}
+
 .article-abstract p {
   font-family: "Crimson Text", serif!important;
   font-size: 1.6rem!important; /* 0.8837rem */
@@ -91,6 +96,11 @@ h2 {
 }
 .content .markdown-section table {
   display: table!important;
+}
+
+.content .markdown-section table td {
+  padding-left: 14pt;
+  padding-right: 14pt;
 }
 
 .content .markdown-section .booktitle, .content .markdown-section .titlepage {
@@ -228,10 +238,9 @@ color: var(--base-color);
   font-size: 0.8rem;
 }
 .sidebar-nav #toc ol li::before {
-  content: '\f107';
+  content: '\f061';
   font: var(--fa-font-solid);
   line-height: 2;
-  font-weight: 900;
   float: left;
   margin-left: -1.5em;
 }
@@ -240,7 +249,8 @@ color: var(--base-color);
   margin-left: 0em;
 }
 .sidebar-nav #toc ol ol li {
-    list-style-type: "- ";
+  margin-left: 0.6em;
+  margin-bottom:0;
 }
 
 #toc ol li ol li ol {
@@ -251,7 +261,7 @@ color: var(--base-color);
   font-size: 1rem;
 }
 .content .markdown-section .tocpage ol li::before {
-  content: '\f107';
+  content: '\f061;
   font: var(--fa-font-solid);
   line-height: 1.5;
   float: left;
@@ -305,11 +315,11 @@ color: var(--base-color);
   border-bottom: 0px solid #0B87DA;
 }
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
-    font-size: 0.8rem;
-    margin: 0.5em 0 0.75em;
-    text-align: left;
-    font-style: normal;
-    font-weight: 300;
+  font-size: 0.8rem;
+  margin: 0.5em 0 0.75em;
+  text-align: left;
+  font-style: normal;
+  font-weight: 300;
 }
 .content .markdown-section figure {
     border: none;

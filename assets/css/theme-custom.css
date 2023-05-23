@@ -282,7 +282,7 @@ color: var(--base-color);
 }
 
 .content .markdown-section nav li ol ol {
-  display: block !important;
+  display: block!important;
 }
 .sidebar nav ul {
   padding-left: 0.8rem;
@@ -354,7 +354,7 @@ color: var(--base-color);
 
 /* Table of Contents*/
 section.content > aside.nav > .page_toc {
-  top: 80px !important;
+  top: 0px;
   font-size: 14px;
 }
 section.content > aside.nav > .page_toc ul a:hover span {

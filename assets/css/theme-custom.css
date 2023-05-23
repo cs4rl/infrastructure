@@ -53,13 +53,17 @@ div.titlepage {
   background-size: 10%;
   background-repeat: no-repeat;
   margin-top: 0em;
-  margin-bottom: 1em!important;
+  margin-bottom: 14em!important;
 }
-
 
 .content .markdown-section .article-body > figure.image-width-100 {
   margin-left: 0;
   width: 99%;
+}
+
+
+h2 {
+  margin-top: 20pt!important;
 }
 
 .article-abstract p {
@@ -119,6 +123,7 @@ h2 {
 .content .markdown-section .booktitle, .content .markdown-section .titlepage {
   text-align: center;
 }
+
 .markdown-section h1, .content .markdown-section .article-title {
     margin: var(--heading-h1-margin, var(--heading-margin));
     padding: var(--heading-h1-padding, var(--heading-padding));

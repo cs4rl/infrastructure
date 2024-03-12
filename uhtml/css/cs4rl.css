@@ -133,7 +133,7 @@ body {
 @page :first {
   size: 210mm 297mm;
   /* background-image: linear-gradient(#e3e3e3,#e3e3e3 80%, #ffffff 10%); */
-  background-image: url(../../cover/cover.jpg);
+  background-image: url(media/cover.jpg);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 210mm 297mm;
